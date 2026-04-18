@@ -51,6 +51,12 @@ Custom JWT auth (no NextAuth). `jose` signs HS256 tokens stored as `httpOnly` co
 
 Prisma v7 + SQLite (`prisma/dev.db`). Prisma client is generated to `src/generated/prisma` (non-default path — use this import path, not `@prisma/client`). The `Project.messages` and `Project.data` fields are raw JSON strings (manually stringified/parsed).
 
+The database schema is defined in the `prisma/schema.prisma` file. Reference it anytime you need to understand the structure of data stored in the database.
+
 ### Path alias
 
 `@/*` maps to `./src/*` (configured in `tsconfig.json`).
+
+## Code Style
+
+- Use comments sparingly. Only comment complex code.

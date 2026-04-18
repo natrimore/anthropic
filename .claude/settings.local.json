@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm list:*)",
+      "Bash(npm show:*)",
+      "Bash(npm install:*)",
+      "Bash(npm audit:*)",
+      "Bash(npx.cmd @playwright/mcp@latest --version 2>&1)",
+      "Bash(npx.cmd -y @playwright/mcp@latest --version 2>&1)",
+      "Bash(npm.cmd cache:*)",
+      "Bash(npm.cmd config:*)",
+      "Bash(node:*)",
+      "Bash(npm.cmd install:*)",
+      "mcp__playwright"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "playwright"
+  ]
+}
